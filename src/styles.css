@@ -1,0 +1,106 @@
+.App {
+  font-family: sans-serif;
+  margin: 0px;
+  height: 100%;
+  /* text-align: center; */
+}
+* {
+  margin: 0px;
+  background-size: contain;
+  font-family: "Arimo";
+}
+.form-main {
+  margin: 70px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.appBar {
+  background: -moz-linear-gradient(
+    270deg,
+    rgba(255, 140, 0, 1) 0%,
+    rgba(255, 59, 0, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    270deg,
+    rgba(255, 140, 0, 1) 0%,
+    rgba(255, 59, 0, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    270deg,
+    rgba(255, 140, 0, 1) 0%,
+    rgba(255, 59, 0, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF8C00', endColorstr='#FF3B00', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    270deg,
+    rgba(255, 140, 0, 1) 0%,
+    rgba(255, 59, 0, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    270deg,
+    rgba(255, 140, 0, 1) 0%,
+    rgba(255, 59, 0, 1) 100%
+  );
+  color: white;
+  /* background-image: linear-gradient(
+    65.9deg,
+    rgba(85, 228, 224, 1) 5.5%,
+    rgba(75, 68, 224, 0.74) 54.2%,
+    rgba(64, 198, 238, 1) 55.2%,
+    rgba(177, 36, 224, 1) 98.4%
+  ); */
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  height: 100%;
+  margin: 0px;
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.62) 0%,
+    rgba(255, 59, 0, 0.43) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.62) 0%,
+    rgba(255, 59, 0, 0.43) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.62) 0%,
+    rgba(255, 59, 0, 0.43) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF3B00', endColorstr='#FFFFFF', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.62) 0%,
+    rgba(255, 59, 0, 0.43) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.62) 0%,
+    rgba(255, 59, 0, 0.43) 100%
+  );
+}
